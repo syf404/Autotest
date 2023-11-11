@@ -8,7 +8,7 @@ public class IgnoreTest {
     public void IgnoreTest(){
         System.out.println("能执行的测试01");
     }
-    @Test
+    @Test(enabled = false)
     public void IgnoreTest02(){
         System.out.println("不能执行的测试02");
     }
