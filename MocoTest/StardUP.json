@@ -1,0 +1,16 @@
+[
+  {
+    "description": "这是我们第一个moco框架的学习",
+    "request":
+    {
+      "uri": "/demo"
+    },
+    "response":
+    {
+      "text": "这是返回的数据格式",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]

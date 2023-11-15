@@ -1,0 +1,20 @@
+[
+  {
+    "description": "这是一个带返回值的post请求",
+    "request": {
+      "method": "post",
+      "uri": "/PostParamterReq",
+      "forms": {
+        "name": "张三",
+        "age": "10",
+        "sex": "1"
+      }
+    },
+    "response": {
+      "text": "huhansan这是一个post返回参数",
+      "headers": {
+        "Content-Type": "text-html;charset=gbk"
+      }
+    }
+  }
+]

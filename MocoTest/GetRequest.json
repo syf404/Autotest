@@ -1,0 +1,32 @@
+[
+  {
+    "description": "这是模拟一个不带参数的请求",
+     "request": {
+       "method": "GET",
+       "uri": "/getReq"
+     },
+    "response": {
+      "text": "这是一个不带参数的GET返回方法",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+  },
+  {
+  "description": "这是一个带参数的Get返回方法",
+    "request": {
+      "method": "GET",
+      "uri": "/getparamterReq",
+      "queries": {
+        "name": "张三",
+        "age": "10"
+      }
+    },
+    "response": {
+      "text": "带参返回值1025",
+      "headers": {
+        "Content-Type": "text/html;charset=gbk"
+      }
+    }
+}
+]

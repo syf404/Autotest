@@ -1,0 +1,15 @@
+[
+  {
+    "description": "这是一个post请求",
+    "request": {
+      "method": "post",
+      "uri": "/postReq"
+    },
+    "response": {
+      "text": "这是一个post返回请求",
+      "headers": {
+        "Content-Type": "text-html;charset=gbk"
+      }
+    }
+  }
+]

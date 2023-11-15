@@ -1,0 +1,42 @@
+[
+  {
+    "description": "一个返回带有cookie的get请求",
+    "request": {
+      "method": "get",
+      "uri": "/get/cookie",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "headers":{"Content-Type": "text-html;charset=gbk"},
+
+      "text": "cookie返回值是什么呢？"
+    }
+  },
+  {
+    "description": "带json返回值的格式",
+    "request": {
+      "method": "post",
+      "uri": "/post/cookie/json",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "nnn",
+        "age": "10",
+        "sex": "2",
+        "number": "100000000"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text-html;charset=gbk"
+      },
+      "json": {
+      "status": "200",
+        "log": "success"
+      }
+    }
+  }
+]

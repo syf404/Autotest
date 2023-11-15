@@ -1,0 +1,25 @@
+[
+  {
+    "description": "header",
+    "request": {
+      "method": "post",
+      "uri": "/post/header",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "forms": {
+        "name": "王五",
+        "age": "12"
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "text-html;charset=gbk"
+      },
+      "json": {
+        "result": "sussedccccccccc",
+        "status": "200"
+      }
+    }
+  }
+]
